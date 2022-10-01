@@ -4,7 +4,7 @@ A really simple (and visually strange) demonstration project for Voxelman in the
 
 It is a first person parkour game. Reach the weird glowing teleporter at the end of each level.
 
-In order to open this, you need to have the proper version of the [Pandemonium Engine](https://github.com/Relintai/pandemonium_engine) added!
+In order to open this, you need to have the proper version of the [Pandemonium Engine](https://github.com/Relintai/pandemonium_engine)!
 
 You can either just get an executable at the [releases tab](https://github.com/Relintai/the_tower_pandemonium/releases), or 
 you can build one yourself see [here](#compiling).
