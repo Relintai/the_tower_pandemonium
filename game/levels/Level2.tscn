@@ -4,8 +4,7 @@
 [ext_resource path="res://player/Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://library/MainLibrary.tres" type="VoxelLibrarySimple" id=3]
 [ext_resource path="res://scripts/Ladder.gd" type="Script" id=4]
-[ext_resource path="res://environments/red_env.tres" type="Environment" id=5]
-[ext_resource path="res://gi_probes/level1.tres" type="GIProbeData" id=6]
+[ext_resource path="res://environments/red_env.tres" type="Environment3D" id=5]
 [ext_resource path="res://areas/ExitPortal.tscn" type="PackedScene" id=7]
 
 [sub_resource type="VoxelChunkBlocky" id=1]
@@ -216,17 +215,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.12439, 25.2891, 17.5787 )
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = ExtResource( 5 )
-
-[node name="GIProbe" type="GIProbe" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -9.24192, 27.1703, 21.894 )
-extents = Vector3( 13.3083, 8.74279, 16.0324 )
-energy = 3.33
-propagation = 0.41
-bias = 1.772
-normal_bias = 0.816
-interior = true
-compress = true
-data = ExtResource( 6 )
 
 [node name="OmniLight2" type="OmniLight" parent="."]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -8.96332, 24.167, 17.7326 )
