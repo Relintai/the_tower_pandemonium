@@ -13,8 +13,6 @@ You can also try a live version running in the browser [here](https://relintai.g
 
 Unfortunately the web editor needs custom http headers to work and I can't set that up from github.io, so right now I don't have a hosted version of that.
 
-Uses GLES3, and is loaded with effects. It will likely make low powered devices (like phones) cry.
-
 Should work on all platforms (even when there is no threading available).\
 It does not have touchscreen controls tough.
 
