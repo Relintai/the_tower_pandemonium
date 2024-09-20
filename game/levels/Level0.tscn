@@ -287,9 +287,6 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -21.9693, 3.02528, -9.99266 )
 [node name="Texts" type="MarginContainer" parent="."]
 anchor_right = 1.0
 anchor_bottom = 1.0
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Texts"]
 margin_right = 1024.0
@@ -330,3 +327,31 @@ size_flags_stretch_ratio = 2.1
 
 [node name="Camera" type="Camera" parent="."]
 transform = Transform( 0.666715, 0, 0.745313, 0, 1, 0, -0.745313, 0, 0.666715, 0, 6.15975, -5.948 )
+
+[node name="HelpText" type="MarginContainer" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_constants/margin_left = 30
+custom_constants/margin_right = 30
+
+[node name="VBoxContainer" type="VBoxContainer" parent="HelpText"]
+margin_left = 30.0
+margin_right = 994.0
+margin_bottom = 600.0
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="HelpText/VBoxContainer"]
+margin_top = 242.0
+margin_right = 964.0
+margin_bottom = 358.0
+
+[node name="Label" type="Label" parent="HelpText/VBoxContainer/HBoxContainer"]
+margin_right = 121.0
+margin_bottom = 116.0
+text = "Controls
+
+w,a,s,d: Movement
+space: jump
+shift: run
+r: reload level
+esc: ingame menu"
